@@ -1,0 +1,9 @@
+Q1 - In Android Studio, what is menu command to open the list of sample apps?
+A1 - File > New > Import Sample 
+
+Q2 - Which buttons does the Basic Activity template provide as part of the UI? Choose two:
+A2 - 1) Options menu overflow button
+     2) Floating action button
+     
+Q3 - Which source of documentation is the official documentation for Android developers? Choose one:
+A3 - developer.android.com
