@@ -1,0 +1,8 @@
+Q1 - How many Views can a ScrollView contain?
+A1 - One View or one ViewGroup
+
+Q2 - Which XML attribute do you use in a LinearLayout to show views side-by-side?
+A2 - android:orientation="horizontal"
+
+Q3 - Which XML attribute do you use to define the width of the LinearLayout inside the scrolling view?
+A3 - android:layout_width="200dp"
