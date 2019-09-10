@@ -1,0 +1,13 @@
+Q1 - What are the layout constraint attributes on the Zero button to position it vertically equal distance between the other two buttons?
+A1 - app:layout_constraintBottom_toTopOf="@+id/button_count" and app:layout_constraintTop_toBottomOf="@+id/button_toast"
+
+Q2 - What is the layout constraint attribute on the Zero button to position it horizontally in alignment with the other two buttons?
+A2 - app:layout_constraintStart_toEndOf="@+id/button_count" and app:layout_constraintEnd_toStartOf="@id/button_toast"
+
+Q3 - What is the correct signature for a method used as the value of the android:onClick XML attribute?
+A3 - public void callMethod(View view)
+
+Q4 - The click handler for the Count button starts with the following method signature:
+        public void countUp(View view)
+        Which of the following techniques is more efficient to use within this handler to change the button's background color?
+A4 - Use the view parameter that is passed to the click handler with setBackgroundColor(). 
