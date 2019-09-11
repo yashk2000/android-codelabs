@@ -1,0 +1,14 @@
+Q1) What changes are made when you add a second Activity to your app by choosing File > New > Activity and an Activity template? Choose one:
+A1) The second Activity is added as a Java class, the XML layout file is created, and the AndroidManifest.xml file is changed to declare a second Activity.
+ 
+Q2) What happens if you remove the android:parentActivityName and the <meta-data> elements from the second Activity declaration in the AndroidManifest.xml file? Choose one:
+A2) The Up button in the app bar no longer appears in the second Activity to send the user back to the parent Activity.
+ 
+Q3) Which constructor method do you use to create a new explicit Intent? Choose one:
+A3) new Intent(Context context, Class<?> class)
+
+Q4) In the HelloToast app homework, how do you add the current value of the count to the Intent? Choose one:
+A4) As an Intent extra
+
+Q5) In the HelloToast app homework, how do you display the current count in the second "Hello" Activity? Choose one:
+A5) All of the above.
