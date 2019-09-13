@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tab Experiment</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_label1">Top Stories</string>
+    <string name="tab_label2">Tech News</string>
+    <string name="tab_label3">Cooking</string>
+</resources>
