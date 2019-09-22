@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/yashk2000/codelabs/TransitionsandAnimations/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/yashk2000/codelabs/TransitionsandAnimations/app/src/main/res/values-w820dp/dimens.xml",
+                    "from": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "875",
+                        "endColumns": "57",
+                        "endOffsets": "928"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}

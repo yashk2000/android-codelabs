@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/redBlock"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_above="@+id/anchor"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toLeftOf="@+id/anchor"
+        android:layout_toStartOf="@+id/anchor"
+        android:background="@drawable/red_circle"/>
+
+    <ImageView
+        android:id="@+id/androidBlock"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_above="@+id/anchor"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toEndOf="@+id/anchor"
+        android:layout_toRightOf="@+id/anchor"
+        android:src="@drawable/ic_android_black_24dp"
+        android:tint="@color/green"
+        android:transitionName="switchAndroid"/>
+
+    <View
+        android:id="@+id/anchor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/yellowBlock"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_below="@+id/anchor"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toEndOf="@+id/anchor"
+        android:layout_toRightOf="@+id/anchor"
+        android:background="@color/yellow" />
+
+    <ImageView
+        android:id="@+id/blueBlock"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_below="@+id/anchor"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_toLeftOf="@+id/anchor"
+        android:layout_toStartOf="@+id/anchor"
+        android:background="@drawable/blue_line"
+        android:transitionName="switchBlue"/>
+</RelativeLayout>
