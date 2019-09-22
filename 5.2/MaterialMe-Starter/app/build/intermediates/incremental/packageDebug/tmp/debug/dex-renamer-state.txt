@@ -1,0 +1,4 @@
+#Sun Sep 22 14:51:11 IST 2019
+base.0=/home/yashk2000/codelabs/MaterialMe-Starter/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex
