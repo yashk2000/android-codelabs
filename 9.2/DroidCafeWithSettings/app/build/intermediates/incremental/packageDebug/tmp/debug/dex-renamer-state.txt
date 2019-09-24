@@ -1,0 +1,4 @@
+#Tue Sep 24 13:52:52 IST 2019
+base.0=/home/yashk2000/codelabs/android-fundamentals-apps-v2/DroidCafeWithSettings/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex
